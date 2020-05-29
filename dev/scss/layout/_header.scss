@@ -1,3 +1,49 @@
 /* =============
     Header
 ============= */
+body, html {
+  height: 100%;
+}
+
+/* The hero image */
+.hero-image {
+
+background-image: url("Header_Background.png");
+height: 50%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+ 
+img {
+  width: 100%;
+  height: auto;
+}
+
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #F6F1F0;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
