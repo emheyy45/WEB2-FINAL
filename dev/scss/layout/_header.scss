@@ -1,11 +1,13 @@
 /* =============
     Header
 ============= */
+#header {
+
+
 body, html {
   height: 100%;
 }
 
-/* The hero image */
 .hero-image {
 
 background-image: url("Header_Background.png");
@@ -46,4 +48,12 @@ ul {
   li a:hover {
     background-color: #111;
   }
-  
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+
+  }  
+
+}

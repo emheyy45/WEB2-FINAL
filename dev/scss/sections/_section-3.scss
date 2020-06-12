@@ -1,0 +1,93 @@
+/* =============
+    Section 3
+============= */
+
+#section-3 {
+    
+    .section3 {
+  
+        padding: 30px 30px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-gap: 20px;
+      }
+      
+    
+      .container-right {
+        
+      
+        display: grid;
+        grid-template-columns: auto 500px;
+        grid-template-areas: "text image";
+        grid-gap: 20px;
+
+        
+        #text{
+          grid-area:"text";
+          text-align: right;
+          margin-bottom: 300px;
+          border-width: 50px;
+          
+
+    
+        }
+
+        #enforcer {
+        
+            grid-area:"image";
+            background-image: url("/Users/emmahowell/Documents/GitHub/WEB2-FINAL/deploy/img/img_enforcerpage@2x.png");
+            background-repeat: no-repeat;
+            background-image: contain;
+            max-width: 100%;
+          
+      }
+      
+      
+    
+    .button-container {
+        margin: 20px;
+        position: relative;
+      }
+      
+      .button-container .button {
+        background-color: #E15C5Ced;
+        border: none;
+        border-radius: 4px;
+        color: black;
+        padding: 15px 30px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        margin-top: -330px;
+        margin-left: 50px;
+        cursor: pointer;
+        -webkit-transition: all .25s ease;
+        -moz-transition: all .25s ease;
+        -ms-transition: all .25s ease;
+        -o-transition: all .25s ease;
+        transition: all .25s ease;
+        position: absolute;
+         }
+
+  .header3 {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    position: center;
+    font-size: 48px;
+    background-color: #d51f1f;
+    width: 100%;
+}
+
+  .para3 {
+     color: black;
+     font-family: 'Nunito', sans-serif;
+     position: right;
+     font-size: 18px;
+   }
+
+ }
+}

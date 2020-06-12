@@ -52,6 +52,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/cosplay.jpg": {
+		"ft": 16384,
+		"iS": 79608,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/deploy/img/cosplay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/deploy/img/depthsofsanity.png": {
 		"ft": 32768,
 		"iS": 127416,
@@ -85,6 +96,27 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/facebook.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/facebook.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/Group 2.png": {
+		"ft": 32768,
+		"iS": 2050,
+		"oA": 0,
+		"oAP": "/deploy/img/Group 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"/deploy/img/Header_Background.png": {
 		"ft": 32768,
 		"iS": 1164739,
@@ -107,22 +139,21 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/deploy/img/instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
 	"/deploy/img/neoncity@2x.png": {
 		"ft": 32768,
 		"iS": 237389,
 		"oA": 0,
 		"oAP": "/deploy/img/neoncity@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/deploy/img/pax-east-2019-exhibitors.png": {
-		"ft": 32768,
-		"iS": 186959,
-		"oA": 0,
-		"oAP": "/deploy/img/pax-east-2019-exhibitors.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -151,26 +182,36 @@
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/peopleplaying.png": {
+	"/deploy/img/paxlogofooter.png": {
 		"ft": 32768,
-		"iS": 287449,
+		"iS": 12054,
 		"oA": 0,
-		"oAP": "/deploy/img/peopleplaying.png",
+		"oAP": "/deploy/img/paxlogofooter.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
-	"/deploy/img/talkingmen.png": {
-		"ft": 32768,
-		"iS": 89479,
+	"/deploy/img/twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/deploy/img/twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 52780316221407,
+		"prP": 0
+		},
+	"/deploy/img/WhatcanidoatPAX.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
 		"oA": 0,
-		"oAP": "/deploy/img/talkingmen.png",
+		"oAP": "/deploy/img/WhatcanidoatPAX.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"/deploy/img/whispergirl.png": {
@@ -379,6 +420,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/dev/scss/sections/_section-2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-3.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-4.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-5.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-5.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/dev/scss/sections/_section-6.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/dev/scss/sections/_section-6.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

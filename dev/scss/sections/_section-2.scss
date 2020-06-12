@@ -3,9 +3,106 @@
     Section 2
 ============= */
 
-.badgeimg {
-    img {
-        max-width: 100%;
-        height: auto;
+#section-2 {
+
+  .button-container {
+    margin: 20px;
+    position: fixed;
+  }
+  
+  .button-container .button {
+    background-color: #E15C5Ced;
+    border: none;
+    border-radius: 4px;
+    color: black;
+    padding: 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    position: absolute;
+     }
+  
+  
+  
+  .section2 {
+    padding: 30px 30px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+  }
+  
+  
+  .container-left {
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: ". text images";
+      
+
+    #text2{
+        grid-area: "text";
+        text-align: left;
+        margin-bottom: 300px;
+        object-fit: cover;
+        position: relative;
+        
+        
     }
-}
+
+
+    #pax {
+      grid-area: "image";
+      background-image: url("/Users/emmahowell/Documents/GitHub/WEB2-FINAL/deploy/img/WhatcanidoatPAX.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      object-fit: cover;
+      width: 489px;
+      height: 550px;
+
+
+
+    }
+    
+  }
+
+  .header2{
+    color: black;
+    font-family: 'Nunito', sans-serif;
+    padding: 10px;
+    position: center;
+    font-size: 48px;
+    background-color: #d51f1f; 
+    width: 100%;
+ 
+  }
+
+  .p2 {
+     color: black;
+     font-family: 'Nunito', sans-serif;
+     position: center relative;
+     padding-top: 10px;
+     width: 100%;
+     font-size: 18px;
+  }
+
+
+  
+}    
+     
+     
+
+    
+
+
+
+
+  
