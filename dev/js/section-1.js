@@ -13,6 +13,7 @@ export function buttonIntroAnimation(){
         animation: buttonIntroTL,
         start: "top 50%",
         end: "top 50%",
-        scrub: 2
+        scrub: 2,
+        markers: true
     });
 }
