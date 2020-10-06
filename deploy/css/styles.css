@@ -367,7 +367,7 @@ textarea {
   background-size: cover;
   position: relative; }
   #header .hero-image img {
-    width: 100%;
+    max-width: 100%;
     height: auto; }
 
 #header ul {
@@ -499,7 +499,6 @@ body {
   padding: 10px;
   position: center;
   font-size: 48px;
-  background-color: #d51f1f;
   width: 40%; }
 
 /* =============
@@ -561,7 +560,6 @@ body {
   padding: 10px;
   position: center;
   font-size: 48px;
-  background-color: #d51f1f;
   width: 100%; }
 
 #section-2 .p2 {
@@ -627,7 +625,6 @@ body {
     padding: 10px;
     position: center;
     font-size: 48px;
-    background-color: #d51f1f;
     width: 100%; }
   #section-3 .container-right .para3 {
     color: black;
@@ -688,7 +685,6 @@ body {
   padding: 10px;
   position: center;
   font-size: 48px;
-  background-color: #d51f1f;
   width: 100%; }
 
 #section-4 #p4 {
@@ -723,7 +719,6 @@ body {
   padding: 10px;
   position: center;
   font-size: 48px;
-  background-color: #d51f1f;
   width: 100%; }
 
 #section-5 .p5 {
@@ -765,7 +760,6 @@ body {
   padding: 10px;
   position: center;
   font-size: 38px;
-  background-color: #d51f1f;
   width: 100%; }
 
 #section-6 .p6 {
