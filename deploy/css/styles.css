@@ -592,7 +592,7 @@ body {
     border-width: 50px; }
   #section-3 .container-right #enforcer {
     grid-area: "image";
-    background-image: url("/Users/emmahowell/Documents/GitHub/WEB2-FINAL/deploy/img/img_enforcerpage@2x.png");
+    background-image: url("img_enforcerpage@2x.png");
     background-repeat: no-repeat;
     background-image: contain;
     max-width: 100%; }
