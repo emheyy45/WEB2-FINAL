@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const headerIntroTL = gsap.timeline();
 
-headerIntroTL.from(".header1",{duration: 5, x: -200});
+headerIntroTL.from(".header1",{duration: 5, x: -200, alpha:0});
 
 export function headerIntroAnimation(){
     ScrollTrigger.create({
@@ -13,8 +13,8 @@ export function headerIntroAnimation(){
         animation: headerIntroTL,
         start: "top 50%",
         end: "top 50%",
-        scrub: 1,
-        markers: true
+        scrub: 1
+        //markers: true
     });
 
     

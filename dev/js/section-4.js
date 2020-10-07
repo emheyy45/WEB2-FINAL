@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const showcaseTimeTL = gsap.timeline();
 
-showcaseTimeTL.from("#header4",{duration: 6, x: 500});
+showcaseTimeTL.from("#header4",{duration: 6, x: 500, alpha:0});
 
 export function showCaseAnimation(){
     ScrollTrigger.create({
@@ -13,8 +13,8 @@ export function showCaseAnimation(){
         animation: showcaseTimeTL,
         start: "top 70%",
         end: "top 70%",
-        scrub: 3,
-        markers: true
+        scrub: 3
+        //markers: true
     });
 
     
@@ -22,11 +22,11 @@ export function showCaseAnimation(){
 
 const fourthImgTL = gsap.timeline();
 
-fourthImgTL.from("#indie",{duration:3, x:-1800});
+fourthImgTL.from("#indie",{duration:3, x:-1800, alpha:0});
 
 export function fourImgAnimation(){
     ScrollTrigger.create({
-        markers: true,
+        //markers: true,
         animation: fourthImgTL,
         trigger: "#indie",
         start:"top, 100%",
@@ -37,7 +37,7 @@ export function fourImgAnimation(){
 
 const fourPTL = gsap.timeline();
 
-fourPTL.from("#p4",{duration: 6, x: 500});
+fourPTL.from("#p4",{duration: 6, x: 500, alpha:0});
 
 export function fourParaAnimation(){
     ScrollTrigger.create({
@@ -45,8 +45,8 @@ export function fourParaAnimation(){
         animation: fourPTL,
         start: "top 70%",
         end: "top 70%",
-        scrub: 3,
-        markers: true
+        scrub: 3
+        //markers: true
     });
 
     

@@ -13,8 +13,8 @@ export function sectionThreeAnimation(){
         animation: enforceSectionTL,
         start: "top 50%",
         end: "top 50%",
-        scrub: 1,
-        markers: true
+        scrub: 1
+        //markers: true
     });
 
     
@@ -30,8 +30,8 @@ export function threeParaAnimation(){
         animation: paraThreeTL,
         start: "top 50%",
         end: "top 50%",
-        scrub: 1,
-        markers: true
+        scrub: 1
+        //markers: true
     });
 
 }
@@ -42,7 +42,7 @@ thirdImgTL.from("#enforce",{duration:3, x:-1800});
 
 export function threeImgAnimation(){
     ScrollTrigger.create({
-        markers: true,
+        //markers: true,
         animation: thirdImgTL,
         trigger: "#enforce",
         start:"top, 100%",

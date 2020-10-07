@@ -5,7 +5,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const whatSectionTL = gsap.timeline();
 
-whatSectionTL.from(".header2",{duration: 6, x: 500});
+whatSectionTL.from(".header2",{duration: 6, x: 500, alpha:0});
 
 export function sectionTwoAnimation(){
     ScrollTrigger.create({
@@ -13,8 +13,8 @@ export function sectionTwoAnimation(){
         animation: whatSectionTL,
         start: "top 50%",
         end: "top 50%",
-        scrub: 1,
-        markers: true
+        scrub: 1
+        //markers: true
     });
 
     
@@ -22,7 +22,7 @@ export function sectionTwoAnimation(){
 
 const paraTwoTL = gsap.timeline();
 
-paraTwoTL.from(".p2",{duration: 6, x: 500});
+paraTwoTL.from(".p2",{duration: 6, x: 500, alpha:0});
 
 export function twoParaAnimation(){
     ScrollTrigger.create({
@@ -30,19 +30,19 @@ export function twoParaAnimation(){
         animation: paraTwoTL,
         start: "top 50%",
         end: "top 50%",
-        scrub: 1,
-        markers: true
+        scrub: 1
+        //markers: true
     });
 
 }
 
 const secondImgTL = gsap.timeline();
 
-secondImgTL.from("#pax",{duration:3, x:-1800});
+secondImgTL.from("#pax",{duration:3, x:-1800, alpha:0});
 
 export function twoImgAnimation(){
     ScrollTrigger.create({
-        markers: true,
+        //markers: true,
         animation: secondImgTL,
         trigger: "#pax",
         start:"top, 100%",
