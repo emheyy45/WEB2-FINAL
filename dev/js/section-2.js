@@ -50,3 +50,19 @@ export function twoImgAnimation(){
         scrub: 2
     });
 }
+
+const buttonTL = gsap.timeline();
+
+buttonTL.from(".button-container",{duration:3, x:-1800, alpha:0});
+
+export function buttonTwoAnimation(){
+    ScrollTrigger.create({
+        //markers: true,
+        animation: buttonTL,
+        trigger: ".button-container",
+        start:"top, 100%",
+        end: "bottom, 40%",
+        scrub: 2
+    });
+
+}

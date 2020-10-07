@@ -50,3 +50,18 @@ export function threeImgAnimation(){
         scrub: 2
     });
 }
+
+const applyButtonImgTL = gsap.timeline();
+
+applyButtonImgTL.from(".button",{duration:2, x:-100});
+
+export function buttonThreeAnimation(){
+    ScrollTrigger.create({
+        //markers: true,
+        animation: applyButtonImgTL,
+        trigger: ".button",
+        start:"top, 50%",
+        end: "bottom, 50%",
+        scrub: 2
+    });
+}
