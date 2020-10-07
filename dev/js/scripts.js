@@ -1,8 +1,17 @@
 
-import {buttonIntroAnimation} from "./section-1.js";
-import {section2ImageAnimation} from "./section-2.js";
+import {headerIntroAnimation} from "./section-1.js";
+import {sectionTwoAnimation, twoParaAnimation, twoImgAnimation} from "./section-2.js";
+import {sectionThreeAnimation, threeParaAnimation, threeImgAnimation} from "./section-3.js";
 
-buttonIntroAnimation();
-section2ImageAnimation();
+
+
+headerIntroAnimation();
+sectionTwoAnimation();
+twoParaAnimation();
+sectionThreeAnimation();
+threeParaAnimation();
+threeImgAnimation();
+twoImgAnimation();
+
 
 

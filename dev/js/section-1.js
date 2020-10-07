@@ -3,17 +3,21 @@ import {ScrollTrigger} from "gsap/ScrollTrigger";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const buttonIntroTL = gsap.timeline();
+const headerIntroTL = gsap.timeline();
 
-buttonIntroTL.from("#badge",{duration: 3, x: -500});
+headerIntroTL.from(".header1",{duration: 5, x: -200});
 
-export function buttonIntroAnimation(){
+export function headerIntroAnimation(){
     ScrollTrigger.create({
-        trigger: "#badge",
-        animation: buttonIntroTL,
+        trigger: ".header1",
+        animation: headerIntroTL,
         start: "top 50%",
         end: "top 50%",
-        scrub: 2,
+        scrub: 1,
         markers: true
     });
+
+    
 }
+
+

@@ -364,7 +364,8 @@ textarea {
   height: 50%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  position: relative; }
   #header .hero-image img {
     max-width: 100%;
     height: auto; }
@@ -545,12 +546,15 @@ body {
     object-fit: cover;
     position: relative; }
   #section-2 .container-left #pax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/WhatcanidoatPAX.jpg");
     grid-area: "image";
-    background-image: url("img/WhatcanidoatPAX.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    object-fit: cover;
-    width: 489px;
+    background-position: center;
+    width: 500px;
     height: 550px; }
 
 #section-2 .header2 {
@@ -589,12 +593,16 @@ body {
     text-align: right;
     margin-bottom: 300px;
     border-width: 50px; }
-  #section-3 .container-right #enforcer {
+  #section-3 .container-right #enforce {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../img/img_enforcerpage@2x.png");
     grid-area: "image";
-    background-image: url("img_enforcerpage@2x.png");
+    background-size: cover;
     background-repeat: no-repeat;
-    background-image: contain;
-    max-width: 100%; }
+    width: 500px;
+    height: 550px; }
   #section-3 .container-right .button-container {
     margin: 20px;
     position: relative; }

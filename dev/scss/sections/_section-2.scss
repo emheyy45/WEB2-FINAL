@@ -60,12 +60,18 @@
 
 
     #pax {
+      
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+     
+      background-image: url('../img/WhatcanidoatPAX.jpg');
       grid-area: "image";
-      background-image: url("img/WhatcanidoatPAX.jpg");
       background-size: cover;
       background-repeat: no-repeat;
-      object-fit: cover;
-      width: 489px;
+      background-position: center;
+      width: 500px;
       height: 550px;
 
 

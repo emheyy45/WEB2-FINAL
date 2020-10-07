@@ -33,14 +33,19 @@
     
         }
 
-        #enforcer {
+        #enforce{
         
-            grid-area:"image";
-            background-image: url("img_enforcerpage@2x.png");
-            background-repeat: no-repeat;
-            background-image: contain;
-            max-width: 100%;
-          
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+          background-image: url('../img/img_enforcerpage@2x.png');
+          grid-area: "image";
+          background-size: cover;
+          background-repeat: no-repeat;
+          width: 500px;
+          height: 550px;
+
       }
       
       
