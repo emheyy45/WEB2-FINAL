@@ -22,7 +22,7 @@ export function sectionTwoAnimation(){
 
 const paraTwoTL = gsap.timeline();
 
-paraTwoTL.from(".p2",{duration: 6, x: 500, alpha:0});
+paraTwoTL.from(".p2",{duration: 6, x: 500, alpha: 0});
 
 export function twoParaAnimation(){
     ScrollTrigger.create({
