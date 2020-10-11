@@ -1,3 +1,4 @@
+import {headImageAnimation} from "./header.js";
 import {imageHeroAnimation} from "./hero.js";
 import {headerIntroAnimation} from "./section-1.js";
 import {sectionTwoAnimation, twoParaAnimation, twoImgAnimation, buttonTwoAnimation} from "./section-2.js";
@@ -19,6 +20,7 @@ fourParaAnimation();
 buttonTwoAnimation();
 buttonThreeAnimation();
 imageHeroAnimation();
+headImageAnimation();
 
 
 
